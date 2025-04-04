@@ -1,0 +1,30 @@
+# Go build fajlovi
+/backend/NTech
+/backend/NTech.exe
+/backend/*.out
+/backend/*.exe
+/backend/*.test
+/backend/*.o
+/backend/*.a
+
+# Keš fajlovi i privremeni fajlovi
+/backend/tmp/
+/backend/*.log
+/backend/*.tmp
+
+# SQLite baza i privremeni fajlovi
+/backend/database/*.db
+/backend/database/*.db-shm
+/backend/database/*.db-wal
+
+# Node.js i Vue build foldere
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+
+# IDE/editor konfiguracije i sistemski fajlovi
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

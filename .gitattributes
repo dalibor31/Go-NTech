@@ -1,0 +1,32 @@
+# Osnovno EOL podešavanje – koristi LF za sve fajlove (Unix-style)
+* text=auto eol=lf
+
+# Go fajlovi
+*.go text diff=go
+
+# Vue i JS fajlovi
+*.vue text
+*.js   text
+*.ts   text
+*.json text
+*.css  text
+*.html text
+
+# Node fajlovi koji su binarni ili mašinski generisani
+package-lock.json text
+
+# SQLite fajlovi – binarni
+*.db binary
+*.db-shm binary
+*.db-wal binary
+
+# Images – binarni
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+
+# Ignore compiled binaries
+*.exe binary
+*.out binary
